@@ -28,12 +28,6 @@
             "/src/Lits/Test/"
         ]
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/BGSU-LITS/framework"
-        }
-    ],
     "scripts": {
         "post-install-cmd": [
             "@composer bin all install --ansi"
