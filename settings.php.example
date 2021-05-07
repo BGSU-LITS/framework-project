@@ -37,6 +37,9 @@ return function (Framework $framework): void {
     // Name of the site.
     $settings['template']->site = 'Example';
 
+    // HTML contact information for the site.
+    // $settings['template']->contact = '';
+
     // Menu for the site.
     // $settings['template']->menu = [];
 };
