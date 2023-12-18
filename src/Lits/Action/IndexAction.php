@@ -18,7 +18,7 @@ final class IndexAction extends Action
             throw new HttpInternalServerErrorException(
                 $this->request,
                 null,
-                $exception
+                $exception,
             );
         }
     }
